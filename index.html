@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patagonia Ingeniería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="icon" href="public/img/icono petrolero.png">
+</head>
+<body>
+  <!--en header coloco mi banner empresarial-->
+    <header> 
+        <h1></h1> <!--h1 vacío para que no tape mi banner-->
+    </header>
+    <!--BARRA DE NAV de bootstrap-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/views/QuienesSomos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/views/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="public/views/NuestrosProyectos.html">Nuestros Proyectos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--página principal-->
+    <main>
+      <!--En pantallas grandes clasifico mis tres servicios principales en tres columnas, y en pantallas chicas en filas-->
+      <!--primer servicio: oil & gas-->
+      <div class="column">
+        <img src="../public/img/751e5ktr.jpg" alt="Servicios en oil & gas">
+        <h2>Industria Oil & Gas</h2>
+        <p>Ofrecemos soluciones especializadas en instrumentación y control industrial para el sector de petróleo y gas. Desde sistemas SCADA hasta PLC, calibración de instrumentos y certificación, brindamos servicios integrales para optimizar la eficiencia operativa y la seguridad en instalaciones petroleras.</p>
+      </div>
+      <!--segundo servicio: minería-->
+      <div class="column">
+        <img src="../public/img/mining.png" alt="Servicios en minería">
+        <h2>Industria Minera</h2>
+        <p>Somos líderes en servicios de ingeniería para instrumentación y control industrial en la minería. Desde sistemas SCADA hasta controladores lógicos programables (PLC) y calibración de instrumentos, proporcionamos soluciones avanzadas que mejoran la productividad y la seguridad en las operaciones mineras.</p>
+      </div>
+      <!--tercer servicio: obras industriales-->
+      <div class="column">
+        <img src="../public/img/obras.jpg" alt="Servicio 3">
+        <h2>Obras Industriales</h2>
+        <p>Ofrecemos soluciones integrales en obras industriales, destacándonos en montajes y desmontajes mecánicos, electromecánicos, eléctricos y electrónicos. Nuestro equipo altamente capacitado garantiza ejecución precisa y eficiente para proyectos industriales diversos.</p>
+      </div>
+    </main>
+    <!--Pie de página con datos de contacto-->
+  <footer id="Contacto">
+        <div class="footer-container">
+            <div class="empresa-info">
+                <h3>Patagonia Ingeniería</h3>
+                <p>Dirección: Dr. René Favaloro 804, Rio Gallegos, Santa Cruz, Argentina</p>
+                <p>Teléfono: (+54) 2966-307125</p>
+                <p>Correo Electrónico: emiperez0297@gmail.com<p>
+            </div>
+            <div class="redes-sociales">
+                <h3>Síguenos en redes sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
